@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 33.33%;
+  margin: 70px auto 0;
+  border: 1px solid #000;
+}
+
+.form-label {
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 27px;
+  color: $color-dark;
+}

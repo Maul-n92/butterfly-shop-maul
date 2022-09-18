@@ -1,8 +1,22 @@
 .promo {
+  background-image: url(../images/fone.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   padding: 50px 0;
   border-radius: 10px;
 }
 
 .promo-inner {
  @include inner
+}
+
+.promo-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+promo-desc {
+  flex-basis: 50%;
+
 }

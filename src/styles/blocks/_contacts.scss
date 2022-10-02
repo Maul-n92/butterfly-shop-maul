@@ -1,0 +1,42 @@
+.contacts {
+  padding: 140px 0 130px;
+  background-color: rgba($color-light, .2);
+}
+
+.contacts-inner {
+  @include inner;
+}
+
+.contacts-title {
+  @include section-title;
+}
+
+.contacts-content {
+  display: none;
+  flex-wrap: wrap;
+  margin-left: -$gap-half;
+  margin-right: -$gap-half;
+
+  &.active {
+    display: flex;
+  }
+}
+
+.contacts-text {
+  flex-basis: 33.33%;
+  margin-left: 8.33%;
+  padding: 0 $gap-half;
+  font-size: 24px;
+  line-height: 33px;
+
+  p,
+  ul,
+  ol {
+    margin-bottom: 20px;
+  }
+}
+
+.contacts-map {
+  flex-basis: 58.33%;
+  padding: 0 $gap-half;
+}

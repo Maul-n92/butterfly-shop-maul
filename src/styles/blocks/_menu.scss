@@ -1,4 +1,20 @@
 .menu {
+  @media (min-width: $desktop) {
+    display: block !important;
+  }
+
+  @media (max-width: $mobile-max) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid $color-light;
+    background-color: $color-dark;
+  }
+
+
 
   ul {
     display: flex;

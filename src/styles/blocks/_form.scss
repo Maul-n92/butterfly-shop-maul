@@ -1,14 +1,35 @@
 .form {
   display: flex;
-  flex-wrap: wrap;
-  width: 33.33%;
-  margin: 70px auto 0;
-  border: 1px solid #000;
+    align-items: flex-end;
+  margin: 0 -10px;
+
+}
+
+.form-field{
+  flex-basis: 33.33%;
+   padding: 0 $gap-half;
+   margin: 0 82px 130px;
 }
 
 .form-label {
-  margin-left: 20px;
+  display: block;
+  padding-bottom: 8px;
+  font-family: $font;
+  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   color: $color-dark;
+  margin: 0 10px;
+}
+
+.form-input{
+  display: block;
+  padding: 35px 30px;
+  width: 100%;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  border: none;
+  border-radius: 6px;
 }

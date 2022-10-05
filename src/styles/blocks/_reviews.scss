@@ -1,0 +1,56 @@
+.reviews {
+  padding: 130px 0 82px;
+}
+
+.reviews-inner {
+  @include inner;
+}
+
+.reviews-title {
+  @include section-title;
+  margin-top: 80px;
+}
+
+.reviews-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -$gap-half;
+  margin-right: -$gap-half;
+}
+
+.reviews-item {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+
+.reviews-ava {
+  width: 304px;
+  height: 304px;
+  margin-right: 22px;
+  object-fit: cover;
+}
+
+.reviews-text{
+  width: 518px;
+height: 237px;
+flex: none;
+padding: 34px;
+}
+
+.reviews-name {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+}
+
+.reviews-quote {
+  flex: none;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+}

@@ -1,20 +1,12 @@
 .promo {
-  padding-top: 89px;
   background-image: url(../images/fone.jpg);
+  justify-content: center;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-
-  @media (max-width: $tablet-max) {
-    padding: 90px 0;
   }
 
-  @media (max-width: $mobile-max) {
-    padding: 60px 0;
-    text-align: center;
-  }
 
-  }
 
 .promo-inner {
   @include inner
@@ -23,13 +15,16 @@
 .promo-wrap {
   padding: 200px 0 214px 0;
   background-color: rgba(51, 51, 51, .4);
+  margin-left: -$gap-half;
+  margin-right: -$gap-half;
 }
 
 .promo-title{
   color: #fff;
+  font: $font;
   font-weight: 600;
   font-size: 72px;
   line-height: 98px;
   text-align: center;
-
+  padding: 0 82px;
 }

@@ -10,4 +10,14 @@
 
 .order-title {
   @include section-title;
+  padding-bottom: 40px;
+  margin: 130px 82px 0;
+}
+
+.order-text{
+  padding-bottom: 90px;
+    font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
 }

@@ -1,12 +1,13 @@
-@mixin inner($width: 1440px) {
-  width: $width;
+@mixin inner($width: 1276px) {
+  max-width: $width + $gap;
   margin: 0 auto;
+  padding: 0 $gap-half;
   border: 1px solid red;
 }
 
 @mixin btn {
   display: block;
-  padding: 30px 0 31px;
+  padding: 30px 46px;
   min-width: 497px;
   color: #fff;
   font-family: $font;

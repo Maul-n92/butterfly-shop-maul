@@ -9,7 +9,7 @@
   @include btn ;
   width: 497px;
 height: 104px;
-padding: 30px 40px;
+padding: 30px ;
   margin: 100px auto;
 
 }
@@ -17,7 +17,7 @@ padding: 30px 40px;
 .portfolio-btn {
   @include btn;
   margin: 0 auto;
-}
+  }
 
 .form-btn {
   @include btn;

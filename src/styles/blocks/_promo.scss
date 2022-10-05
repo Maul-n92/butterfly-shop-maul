@@ -1,22 +1,35 @@
 .promo {
+  padding-top: 89px;
   background-image: url(../images/fone.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 50px 0;
-  border-radius: 10px;
-}
+
+  @media (max-width: $tablet-max) {
+    padding: 90px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  }
 
 .promo-inner {
- @include inner
+  @include inner
 }
 
 .promo-wrap {
-  display: flex;
-  flex-wrap: wrap;
+  padding: 200px 0 214px 0;
+  background-color: rgba(51, 51, 51, .4);
 }
 
-promo-desc {
-  flex-basis: 50%;
+.promo-title{
+  color: #fff;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
 
 }

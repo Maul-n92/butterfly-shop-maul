@@ -1,7 +1,44 @@
 .footer{
+  width: 100%;
   background-color: $color-dark;
+  color: $color-light;
 }
 
-.footer-inner{
-  @include inner
+.footer-inner {
+  @include inner;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo{
+  padding: 31px 0;
+}
+
+.footer-phone {
+  color: $color-light;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.social-list {
+  display: flex;
+  list-style: none;
+}
+
+.social-item{
+  margin-left: 15px;
+
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }

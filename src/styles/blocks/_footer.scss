@@ -11,6 +11,10 @@
 .footer-wrap {
   display: flex;
   align-items: center;
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column-reverse;
+  }
 }
 
 .footer-logo{
@@ -22,23 +26,4 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 38px;
-}
-
-.social-list {
-  display: flex;
-  list-style: none;
-}
-
-.social-item{
-  margin-left: 15px;
-
-}
-
-.social-link {
-  display: block;
-  width: 26px;
-  height: 26px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }

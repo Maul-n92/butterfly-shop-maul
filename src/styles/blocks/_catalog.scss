@@ -1,0 +1,13 @@
+.catalog-list {
+  display: flex;
+  margin: 0 -10px 120px;
+}
+
+.catalog-photo {
+  flex: auto;
+  margin: 0 10px;
+
+  a {
+    position: relative;
+  }
+}
